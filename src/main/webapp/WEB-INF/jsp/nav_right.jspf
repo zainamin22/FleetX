@@ -1,0 +1,143 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<!-- top navigation -->
+<ul class="sidebar navbar-nav" style="background:#002F4D;">
+
+
+
+    <li class="nav-item active" style="color: white;">
+        <a class="nav-link" href="dashboard">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Dashboard</span>
+        </a>
+    </li>
+
+
+    <li class="nav-item active" style="color: white;">
+        <a class="nav-link" href="navigation">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Trips</span>
+        </a>
+    </li>
+
+
+
+    <li class="nav-item active" style="color: white;">
+        <a class="nav-link" href="leaderboard">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Driver Leaderboard</span>
+        </a>
+    </li>
+
+
+
+
+    <li class="nav-item dropdown" style="color: white;"> 
+         <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-fw fa-folder"></i>
+            <span style="color: white;">Work Orders</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+
+            <a class="dropdown-item" href="workorder_start">Assign Work Orders</a>
+            
+            <a class="dropdown-item" href="workorder_list">Work Orders List</a>
+        </div>
+        
+        
+        
+        
+    </li>
+    
+    
+        <li class="nav-item dropdown" style="color: white;"> 
+         <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-fw fa-folder"></i>
+            <span style="color: white;">Service Entries</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+
+            <a class="dropdown-item" href="serviceentry_start">Assign Service Entry</a>
+            
+            <a class="dropdown-item" href="serviceentry_list">Service Entry List</a>
+        </div>
+        
+        
+        
+        
+    </li>
+    
+
+    <li class="nav-item dropdown" >
+        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-fw fa-folder"></i>
+            <span style="color: white;">Vehicles</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+            <a  class="dropdown-item" href="add_vehicle">Add Vehicles</a>
+            <a class="dropdown-item" href="view_vehicle">Vehicles List</a>
+            <a class="dropdown-item" href="assign_vehicle">Vehicle Assignment</a>
+            <a class="dropdown-item" href="archived_vehicle">Archived Vehicle</a>
+        </div>
+    </li>
+
+
+
+
+    <li class="nav-item dropdown" >
+        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-fw fa-folder"></i>
+            <span style="color: white;">Inspection</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+
+            <a class="dropdown-item" href="inspection_start">Assign Inspection</a>
+            <a class="dropdown-item" href="scheduled_inspection">Scheduled Inspection</a>
+            <a class="dropdown-item" href="inspection_list">Inspection List</a>
+        </div>
+    </li>
+
+
+
+   
+
+
+   <li class="nav-item active" style="color: white;">
+        <a class="nav-link" href="showReminder">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Reminders</span>
+        </a>
+    </li>
+
+
+
+
+
+
+
+    <li class="nav-item dropdown" >
+        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-fw fa-folder"></i>
+            <span style="color: white;">Contact and Users</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+
+            <a class="dropdown-item" href="drivers">Drivers</a>
+            <a class="dropdown-item" href="vendors">Vendors</a>
+        </div>
+    </li>
+
+
+    <li class="nav-item active" style="color: white;">
+        <a class="nav-link" href="logout">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Logout</span>
+        </a>
+    </li>
+
+
+
+
+
+
+</ul>
